@@ -1,8 +1,8 @@
 -   id: laravel-pint
     name: Laravel Pint
     description: Run Laravel Pint code formatter
-    entry: pint_hook.py
-    language: python
+    entry: pint_hook.sh
+    language: system
     files: \.php$
     require_serial: true
     fail_fast: true
